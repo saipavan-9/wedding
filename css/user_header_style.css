@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.user-header {
+    background: #333;
+    padding: 10px;
+}
+
+.user-navbar {
+    display: flex;
+    justify-content: center;
+}
+
+.user-nav-item {
+    margin: 0 15px;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+.user-nav-item:hover {
+    background: #555;
+    border-radius: 5px;
+}
+

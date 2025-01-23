@@ -1,0 +1,60 @@
+body {
+	margin: 0;
+	font-family: Arial, sans-serif;
+	background: #f0e6f6;
+}
+
+.registration-container {
+	max-width: 600px;
+	margin: 50px auto;
+	padding: 20px;
+	background: #fff;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+	text-align: center;
+	color: #333;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+}
+
+label {
+	margin-top: 10px;
+	color: #333;
+}
+
+input, textarea {
+	padding: 10px;
+	margin-top: 5px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+
+button {
+	margin-top: 20px;
+	padding: 10px;
+	background: #333;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+button:hover {
+	background: #555;
+}
+
+.message {
+	text-align: center;
+	margin-top: 20px;
+}
+
+.message a {
+	color: #007bff;
+	text-decoration: none;
+	margin: 0 10px;
+}
